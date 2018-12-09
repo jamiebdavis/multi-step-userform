@@ -1,7 +1,32 @@
 import React from "react";
 
-const Confirm = () => {
-  return <h1>Confirm</h1>;
+//page: 0,
+//name: "",
+//age: 0,
+//email: "",
+//phoneNumber: 0,
+//phoneProvider: "",
+//gasProvider: "",
+//electricProvider: "",
+//insuranceProvider: ""
+
+const Confirm = props => {
+  return (
+    <div>
+      <p>Please confirm your details below</p>
+      <ul>
+        <li>{props.name}</li>
+        <li>{props.name}</li>
+        <li>{props.name}</li>
+        <li>{props.name}</li>
+        <li>{props.name}</li>
+        <li>{props.name}</li>
+        <li>{props.name}</li>
+        <li>{props.name}</li>
+        <li>{props.name}</li>
+      </ul>
+    </div>
+  );
 };
 
 export default Confirm;

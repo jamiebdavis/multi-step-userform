@@ -31,7 +31,15 @@ class UserForm extends Component {
         />
 
         <ServiceDetails />
-        <Confirm />
+        <Confirm
+          name={this.state.name}
+          age={this.state.age}
+          email={this.state.email}
+          phoneNumber={this.state.phoneNumber}
+          gasProvider={this.state.gasProvider}
+          electricProvider={this.state.electricProvider}
+          insuranceProvider={this.state.insuranceProvider}
+        />
         <Thanks />
       </div>
     );
